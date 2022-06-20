@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Chat_WPF</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="download.png" />
+    <None Remove="filled-sent.png" />
+    <None Remove="man_1.jpg" />
+    <None Remove="Man_2.jpg" />
+    <None Remove="menu.png" />
+    <None Remove="menuWhite.png" />
+    <None Remove="Save.png" />
+    <None Remove="Women_1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\download.png" />
+    <Resource Include="Resource\filled-sent.png" />
+    <Resource Include="Resource\man_1.jpg" />
+    <Resource Include="Resource\Man_2.jpg" />
+    <Resource Include="Resource\menu.png" />
+    <Resource Include="Resource\menuWhite.png" />
+    <Resource Include="Resource\Save.png" />
+    <Resource Include="Resource\Women_1.jpg" />
+  </ItemGroup>
+
+</Project>
