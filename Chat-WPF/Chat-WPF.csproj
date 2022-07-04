@@ -8,8 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="close.png" />
     <None Remove="download.png" />
     <None Remove="filled-sent.png" />
+    <None Remove="icons8-phone-30.png" />
     <None Remove="man_1.jpg" />
     <None Remove="Man_2.jpg" />
     <None Remove="menu.png" />
@@ -19,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resource\icons8-phone-30.png" />
     <Resource Include="Resource\download.png" />
     <Resource Include="Resource\filled-sent.png" />
     <Resource Include="Resource\man_1.jpg" />

@@ -77,8 +77,8 @@
                     <Rectangle Height="40"
                                Width="40">
                         <Rectangle.Fill>
-                            <ImageBrush ImageSource="Resources/menu_vertical_24px.png"
-                                        Stretch="Fill"/>
+                            <ImageBrush 
+                                        Stretch="Fill" ImageSource="/Resource/icons8-phone-30.png" ></ImageBrush>
                         </Rectangle.Fill>
                     </Rectangle>
                 </Button>
@@ -109,9 +109,10 @@
                     FontSize="20"
                     HorizontalContentAlignment="Center" 
                     Margin="5,5,5,20" 
-                    RenderTransformOrigin="0.5,0.5" 
-                    TextChanged="usernameText_TextChanged" 
-                    MouseEnter="usernameText_MouseEnter" MouseLeave="usernameText_MouseLeave">
+                    RenderTransformOrigin="0.5,0.5"
+                    MouseEnter="usernameText_MouseEnter"
+                    MouseLeave="usernameText_MouseLeave"
+                    >
                     <TextBox.Resources >
                         <Style TargetType="{x:Type Border}">
                             <Setter   Property="CornerRadius" Value="10"/>
@@ -166,7 +167,7 @@
                             HorizontalContentAlignment="Left" 
                             Height="Auto"
                             Margin="0,5,0,-4"
-                            MouseEnter="TextBoxCH_MouseEnter">
+                            >
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="3*"/>
@@ -312,9 +313,10 @@
                              Background="White"
                              BorderThickness="0"
                              Text="Write a message..."
-                             FontSize="15" Margin="75,10,45,11"
-                             TextChanged="TextBoxCH_TextChanged" 
-                             MouseEnter="TextBoxCH_MouseEnter" MouseLeave="TextBoxCH_MouseLeave" Grid.ColumnSpan="2"></TextBox>
+                             FontSize="15" Margin="75,10,45,11"                              
+                             Grid.ColumnSpan="2"
+                             MouseEnter="TextBoxCH_MouseEnter"
+                             MouseLeave="TextBoxCH_MouseLeave"></TextBox>
                     <Button Grid.Column="1"
                             Background="Transparent"
                             BorderThickness="0"
@@ -322,9 +324,10 @@
                         <Ellipse Width="68"
                                  Height="55" RenderTransformOrigin="0.599,1.027">
                             <Ellipse.Fill>
-                                <ImageBrush ImageSource="/Resource/filled-sent.png" Stretch="Fill"/>
+                                <ImageBrush ImageSource="/Resource/filled-sent.png" Stretch="Fill"/>                                
                             </Ellipse.Fill>
                         </Ellipse>
+                        
                     </Button>
                 </Grid>
             </Grid>
